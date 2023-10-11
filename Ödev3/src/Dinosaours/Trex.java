@@ -11,6 +11,7 @@ public class Trex extends Dinosaour {
 	
 	public String GetName() {
 		Scanner scaner = new Scanner(System.in);
+		System.out.println("Trexinizin ismini giriniz");
 		String  newName=scaner.nextLine();
 		System.out.println("TREXİNİZ İSMİ"+newName);
 		return newName;
