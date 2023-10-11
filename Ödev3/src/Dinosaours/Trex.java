@@ -29,7 +29,7 @@ public class Trex extends Dinosaour {
 	public void Eat() {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Yemek Olarak ET Mi yiyor??");
-		boolean vegetable= sc.hasNextBoolean();
+		boolean vegetable= sc.nextBoolean();
 		if(vegetable == true) {
 			System.out.println("Trex ET YİYOR");
 		}else if(vegetable== false) {
